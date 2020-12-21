@@ -1,0 +1,11 @@
+{
+    "name": "example",
+    "main": "index.js",
+    "version": "0.0.0",
+    "scripts": {
+        "repro": "yarn node index.js"
+    },
+    "dependencies": {
+        "react": "*"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "private": true,
+    "workspaces": [
+        "resolve-fails-in-virtual"
+    ]
+}
