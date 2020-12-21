@@ -24,13 +24,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       },
       {
         "name": "example",
-        "reference": "workspace:resolve-fails"
+        "reference": "workspace:resolve-fails-in-virtual"
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["example", ["workspace:resolve-fails"]],
+      ["example", ["workspace:resolve-fails-in-virtual"]],
       ["root-workspace-0b6124", ["workspace:."]]
     ],
     "fallbackPool": [
@@ -47,10 +47,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["example", [
-        ["workspace:resolve-fails", {
-          "packageLocation": "./resolve-fails/",
+        ["workspace:resolve-fails-in-virtual", {
+          "packageLocation": "./resolve-fails-in-virtual/",
           "packageDependencies": [
-            ["example", "workspace:resolve-fails"],
+            ["example", "workspace:resolve-fails-in-virtual"],
             ["react", "npm:17.0.1"]
           ],
           "linkType": "SOFT",

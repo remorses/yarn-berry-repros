@@ -5,9 +5,9 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"example@workspace:resolve-fails":
+"example@workspace:resolve-fails-in-virtual":
   version: 0.0.0-use.local
-  resolution: "example@workspace:resolve-fails"
+  resolution: "example@workspace:resolve-fails-in-virtual"
   dependencies:
     react: "*"
   languageName: unknown
